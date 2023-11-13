@@ -17,3 +17,23 @@ docker-compose down
 ```
 docker-compose down --volumes --rmi all
 ```
+
+# Panduan Remote Container
+
+- list container
+
+```
+docker ps -a
+```
+
+- remote container
+
+```
+docker exec -it <nama_container_mysql> bash
+```
+
+- login mysql
+
+```
+mysql -u root -p
+```
